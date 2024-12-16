@@ -1,0 +1,11 @@
+https://hangarcdn.papermc.io/plugins/A248/LibertyBans/versions/1.1.0-RC2/PAPER/LibertyBans_Release-1.1.0-RC2.jar
+https://minestrator.com/jsonapi_files/JSONAPI-RELOADED-UNIVERSAL-5.12.9.jar
+https://github.com/plan-player-analytics/Plan/releases/download/5.6.2883/Plan-5.6-build-2883.jar
+https://hangarcdn.papermc.io/plugins/Blue/BlueMap/versions/5.4/PAPER/bluemap-5.4-paper.jar
+https://hangarcdn.papermc.io/plugins/ViaVersion/ViaVersion/versions/5.0.5/PAPER/ViaVersion-5.0.5.jar
+https://hangarcdn.papermc.io/plugins/ViaVersion/ViaBackwards/versions/5.0.4/PAPER/ViaBackwards-5.0.4.jar
+https://hangarcdn.papermc.io/plugins/ViaVersion/ViaRewind/versions/4.0.3/PAPER/ViaRewind-4.0.3.jar
+https://github.com/Cubxity/UnifiedMetrics/releases/download/v0.3.8/unifiedmetrics-platform-bukkit-0.3.8.jar
+https://github.com/EssentialsX/Essentials/releases/download/2.20.1/EssentialsX-2.20.1.jar
+https://github.com/MilkBowl/Vault/releases/download/1.7.3/Vault.jar
+https://github.com/dmulloy2/ProtocolLib/releases/download/5.3.0/ProtocolLib.jar

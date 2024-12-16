@@ -1,0 +1,56 @@
+version: "3.7"
+
+services:
+  lobby:
+    build: ./lobby
+    volumes:
+      - lobby-data:/data
+
+  srv1:
+    build: ./srv1
+    volumes:
+      - srv1-data:/data
+
+  proxy:
+    build: ./proxy
+    ports:
+      - "25565:25577"
+    volumes:
+      - proxy-data:/server
+
+  mumble-server:
+      image: mumblevoip/mumble-server
+      container_name: mumble-server
+      hostname: mumble-server
+      restart: on-failure
+      ports:
+          - 64738:64738
+          - 64738:64738/udp
+  redis:
+      image: redis
+      container_name: redis
+      hostname: redis
+      restart: on-failure
+      volumes:
+      - redis_data:/usr/local/etc/redis/
+      ports:
+          - 6379:6379
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: minecraft
+      MYSQL_USER: minecraft
+      MYSQL_PASSWORD: minecraft
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
+volumes:
+  lobby-data:
+  srv1-data:
+  proxy-data:
+  mysql_data:
+  redis_data:

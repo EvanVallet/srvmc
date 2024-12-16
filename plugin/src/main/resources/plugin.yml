@@ -1,0 +1,12 @@
+# FILE: plugin/src/main/resources/plugin.yml
+name: HelloWorldPlugin
+main: com.helloworld.HelloWorldPlugin
+version: 1.0
+api-version: 1.20
+description: Un plugin Hello World
+commands:
+  create_server:
+    description: crée un server
+  stop_server:
+    description: stop un server 
+  

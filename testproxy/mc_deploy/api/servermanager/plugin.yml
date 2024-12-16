@@ -1,0 +1,8 @@
+name: ServerManager
+version: 1.0
+main: your.package.path.Main
+description: Plugin to create new Minecraft servers dynamically.
+commands:
+  createserver:
+    description: Create a new Minecraft server.
+    usage: /createserver <port>
