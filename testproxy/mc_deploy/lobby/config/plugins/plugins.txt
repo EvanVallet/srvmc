@@ -10,3 +10,4 @@ https://github.com/Cubxity/UnifiedMetrics/releases/download/v0.3.8/unifiedmetric
 https://github.com/EssentialsX/Essentials/releases/download/2.20.1/EssentialsX-2.20.1.jar
 https://github.com/MilkBowl/Vault/releases/download/1.7.3/Vault.jar
 https://github.com/dmulloy2/ProtocolLib/releases/download/5.3.0/ProtocolLib.jar
+https://github.com/Aelysium-Group/rusty-connector/releases/download/v0.8.2/rustyconnector-0.8.2.jar
